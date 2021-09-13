@@ -1,7 +1,7 @@
-# Forge Hello World
+# Confluence Word Counter
 
-This project contains a Forge app written in Javascript that displays `Hello World!` in a Confluence macro. 
-
+This project is a Confluence word counter that displays count of number of words, characters, characters (excluding spaces) in the Confluence Page.
+This functionality is similar to the Word count functionality of Google Docs.
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
 ## Requirements
