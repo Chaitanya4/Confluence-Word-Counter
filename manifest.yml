@@ -1,0 +1,16 @@
+modules:
+  confluence:contentAction:
+    - key: confluence-word-counter-hello-world
+      function: main
+      title: Confluence Word Counter
+      description: Displays the count of number of words, characters, characters (excluding spaces) in the Confluence Page
+  function:
+    - key: main
+      handler: index.run
+permissions:
+  scopes:
+    - 'write:confluence-content'
+    - 'read:confluence-content.all'
+    - 'read:confluence-content.summary'
+app:
+  id: ari:cloud:ecosystem::app/54c5ba4f-d962-4a8b-bc3f-f04d27c09ebf
